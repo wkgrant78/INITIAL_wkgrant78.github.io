@@ -1,3 +1,7 @@
 .container {
     background-color: lightblue;
+    padding-top: 5em;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1em;
 }
