@@ -1,0 +1,30 @@
+.container {
+    background-color: lightblue;
+    padding-top: 5em;
+    padding: 1em;
+    margin-top: 5em;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1em;
+
+.{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.row{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#aboutMeImg{
+    max-width: auto;
+    margin: auto;
+    position: static;
+}
+
+.navbar-header {
+    background-color: transparent;
+}

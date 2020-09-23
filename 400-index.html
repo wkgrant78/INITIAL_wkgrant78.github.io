@@ -13,28 +13,43 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous"
     />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+
     <!-- my CSS link-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="400-style.css">
 
 </head>
 
 <!-- Nav bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="400-index.html">Wendy Grant</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="400-portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="400-contact.html">Contact Me</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <!--NavBar-->
+        <div class="row">
+          <div class="col-lg-8">
+              <nav class="navbar navbar-inverse navbar-fixed-top">
+                  <div class="container-fluid">
+                      <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="400-index.html">Wendy Grant</a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav navbar-right">
+                              <li><a href="400-contact.html">Contact Me</a></li>
+                              <li><a href="400-portfolio.html">Portfolio</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>
+<!--NavBar END-->
 
 <body>
 
@@ -42,18 +57,18 @@
 
         <!-- Row 1 "About Me"-->
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <h2>About Me</h2>
             </div>
         </div>
     
         <!-- Row 2-->
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-3">
                 <!-- img, alt img-->
-                <img src="http://placehold.it/200x200" alt="Placeholder" class="img-thumbnail">
+                <img src="http://placehold.it/300x300" alt="Placeholder" class="img-thumbnail" id="aboutMeImg">
             </div>
-            <div class="col-md-9">
+            <div class="col-sm-9">
             <!-- Blah, blah, blah-->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maiores deserunt, pariatur voluptatum non veritatis aperiam incidunt totam magnam sit illum, facilis nobis optio quia cum ratione soluta nisi modi.
                 Aliquam magni eligendi vitae fugit cupiditate odio quo tempore, suscipit quasi eaque sed error quae expedita aspernatur alias molestias dolorum ex atque. Cum ratione neque id voluptas animi, nobis laboriosam.
@@ -65,7 +80,7 @@
     
         <!-- Row 3-->
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae nobis dicta, sapiente quibusdam qui sequi doloremque cumque perspiciatis eum quisquam soluta, porro alias ea, consequatur asperiores sed. Consequuntur, magnam.Debitis explicabo possimus quaerat deleniti cupiditate animi maiores exercitationem modi, ipsam sequi corporis accusamus consequatur id, pariatur culpa. Tempore cum omnis, accusantium temporibus iure veritatis nostrum numquam quia consectetur. Voluptatum!</p>>
             </div>
         </div>

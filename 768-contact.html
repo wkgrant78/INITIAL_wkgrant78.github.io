@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>My Portfolio</title>
+    <title>Contact Me</title>
+
         <!-- Reset CSS link-->
         <link rel="stylesheet" href="reset.css">
         <!-- Bootstrap CSS link-->
@@ -53,43 +54,36 @@
           </div>
     <!--NavBar END-->
 
+<body>
 
-    <!-- Container -->
+  <!-- Container -->
 
-        <div class="container">
-        <!-- 3 Rows/2 Column: Row 1: 6 6, Row 2: 6 6, Row 3: 6 6 -->
-            <div class="row">
-                <col-lg-6 class="column">
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-                </col-lg-6>
-                
-                <col-lg-6 class="column">                
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-                </col-lg-6>
-            </div>
+    <div class="container">
+      flex direction: column;
+        display: flex;
+
+      <!-- Container heading-->
+      <h1>Contact Me</h1>
       
-            <div class="row">
-                <col-md-6 class="column">
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-                </col-md-6>
-                
-                <col-md-6 class="column">                
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-                </col-md-6>
-            </div>
+      <!-- Contact Me form-->
+      <form>
+        <div class="form-group">
+          <label for="personLookingForMe">Name</label>
+          <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
 
-            <div class="row">
-                <col-md-6 class="column">
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-                </col-md-6>
-                
-                <col-md-6 class="column">                
-                    <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
-                </col-md-6>
-            </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
 
-
-
+        <div class="form-group">
+          <label for="messageToMe">Message</label>
+          <input type="message" class="form-control" id="message">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 </body>
 
 </html>
