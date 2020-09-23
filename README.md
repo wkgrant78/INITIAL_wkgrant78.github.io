@@ -29,13 +29,16 @@ ISSUES/IMPROVEMENTS:
 * Change nav-toggle background color
 * Want to add background img
 * Need to update bio details and link personal imgs
-* Required Assignment Submission:
+* Index .css files
+* Overall asthetics of pages
 
 
 Live URL link:
 
 400 px index: https://wkgrant78.github.io/400-index.html
+
 768 px index: https://wkgrant78.github.io/768-index.html
+
 992 px index: https://wkgrant78.github.io/992-index.html
 
 GitHub repository link:
